@@ -1,0 +1,165 @@
+.container{
+    width: 940px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.main-header{
+    min-height: 700px;
+    padding-top: 36px;
+    margin-bottom: 115px;
+    background-image: url("../img/bg_header.jpg");
+    background-size: 100%;
+    background-color: #3f3d3d;
+
+    border: 1px solid red;
+}
+
+.main-navigation{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+
+    border: 1px solid red;
+}
+
+.menu-list{
+    padding: 0;
+    margin: 0;
+    margin-top: 14px;
+    list-style: none;
+}
+
+.menu-item{
+    display: inline-block;
+    margin-left: 37px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+
+.menu-item a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.menu-item a:hover{
+    color: #fed136;
+}
+
+.welcome{
+    margin-bottom: 40px;
+    font-family: "PT Sans", sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+    border: 1px solid red;
+}
+
+.welikeyou{
+    
+    
+    margin: 0 auto;
+    margin-bottom: 47px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: bold;
+    font-size: 75px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+
+    border: 1px solid red;
+}
+
+.more{
+    display: block;
+    width: 240px;
+    height: 65px;
+    margin: 0 auto;
+    font-family: "PT Sans", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 63px;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #fed136;
+    border-radius: 3px;
+
+    border: 1px solid red;
+}
+
+.title{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+    text-align: center;
+
+    border: 1px solid red;
+}
+
+.description{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 80px;
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+    color: #777777;
+
+    border: 1px solid red;
+}
+
+.services-list{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+
+    border: 1px solid red;
+}
+
+.services-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 290px;
+
+    border: 1px solid red;
+}
+
+.services-item h3{
+    order: 1;
+    margin: 0;
+    margin-bottom: 18px;
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 21px;
+}
+
+.services-item p{
+    order: 2;
+    margin: 0;
+    font-family: "Roboto Slab", serif;
+    font-size: 14px;
+    text-align: center;
+
+    color: #777777;
+}
+
+.services-item img{
+    margin: 0;
+    margin-bottom: 25px;
+    order: 0;
+}
