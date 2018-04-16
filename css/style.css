@@ -12,7 +12,7 @@
     background-size: 100%;
     background-color: #3f3d3d;
 
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 .main-navigation{
@@ -20,7 +20,7 @@
     justify-content: space-between;
     margin-bottom: 150px;
 
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 .menu-list{
@@ -56,7 +56,8 @@
     font-size: 40px;
     color: #ffffff;
     text-align: center;
-    border: 1px solid red;
+
+    /*border: 1px solid red;*/
 }
 
 .welikeyou{
@@ -71,7 +72,7 @@
     color: #ffffff;
     text-align: center;
 
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 .more{
@@ -90,7 +91,7 @@
     background-color: #fed136;
     border-radius: 3px;
 
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 .title{
@@ -104,7 +105,7 @@
     text-transform: uppercase;
     text-align: center;
 
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 .description{
@@ -117,7 +118,7 @@
     text-align: center;
     color: #777777;
 
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 .services-list{
@@ -125,7 +126,7 @@
     justify-content: space-between;
     margin-bottom: 120px;
 
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 .services-item{
@@ -135,7 +136,7 @@
     justify-content: flex-start;
     width: 290px;
 
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 .services-item h3{
@@ -162,4 +163,142 @@
     margin: 0;
     margin-bottom: 25px;
     order: 0;
+}
+
+.portfolio{
+    margin-bottom: 120px;
+    background-color: #f7f7f7;
+}
+
+.portfolio-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 70px;
+
+    /*border: 1px solid red;*/
+}
+
+.portfolio-item{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 50px;
+    width: 290px;
+    min-height: 393px;
+    text-align: center;
+    background-color: #ffffff;
+
+    /*border: 1px solid red;*/
+}
+
+.portfolio-img{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.portfolio-name{
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+    line-height: 21px;
+    letter-spacing: -1px;
+}
+
+.portfolio-type{
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px; 
+    font-style: italic;
+    color: #737373;
+}
+
+.aboutus-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /*border: 1px solid red;*/
+}
+
+.aboutus-item{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 93px;
+    position: relative;
+    
+    /*border: 1px solid red;*/
+}
+
+.aboutus-img{
+    order: 2;
+    flex-basis: 183px;
+    
+    margin: 0 40px;
+}
+
+.aboutus-item::after{
+    position: absolute;
+    content: "";
+    bottom: -93px;
+    width: 0;
+    height: 91px;
+
+    border: 1px solid #f1f1f1;
+}
+
+.aboutus-decription,
+.empty{
+    flex-basis: 325px;
+}
+
+.aboutus-decription{
+    order: 1;
+    
+    text-align: right;
+
+    /*border: 1px solid red;*/
+}
+
+.aboutus-title{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 21px;
+    color: #222222;
+}
+
+.date{
+    text-transform: uppercase;
+}
+
+.aboutus-text{
+    font-family: "Roboto Slab", serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #777777;
+}
+
+.empty{
+    order: 3;
+    
+    /*border: 1px solid red;*/
+}
+
+.aboutus-item:nth-child(2n) .aboutus-decription{
+    order: 3;
+    text-align: left;
+}
+
+.aboutus-item:nth-child(2n) .empty{
+    order: 1;
 }
